@@ -4,7 +4,7 @@
   "description": "node express RESTapi 项目",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app/app.js --exec \"babel-node app/app.js",
+    "dev": "nodemon app/app.js --exec \"babel-node app/app.js\"",
     "build": "babel app -d dist",
     "serve": "node dist/app.js"
   },
@@ -18,7 +18,8 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "mongoose": "^4.9.2"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
